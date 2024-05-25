@@ -56,6 +56,8 @@ html
 	flex-direction: row;
 }
 
+
+
 #whoamiWrapper
 {
 	display: flex;
@@ -85,6 +87,8 @@ html
 	width: 45%;
 }
 
+
+
 #sideRow
 {
 	display: flex;
@@ -108,4 +112,35 @@ html
 #json-content a:hover
 {
 	color: grey;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  #mainWrapper {
+    flex-direction: column;
+  }
+  #whoamiWrapper
+  {
+	  width: 93%;
+	  margin-bottom: 2%;
+	  margin-left: 2%;
+  } 
+  #sideRow img
+  {
+	  width: 0px;
+	  margin: 0px;
+	  padding: 0px;
+	  border: none;
+  }
+  #sideWrapper
+  {
+	  flex-direction: row;
+	  width: 93%;
+	  margin-left: 2%;
+  }
+  #aboutme
+  {
+	  padding-top: 0px;
+	  margin-right: 5%;
+  }
 }

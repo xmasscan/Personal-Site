@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Michael Hanif Khan</title>
 </head>
@@ -16,43 +17,50 @@
 			<li><a href="/html/blogs.html">BLOG</a></li>
 		</ul>
 	</div>
-	<div id="mainWrapper">
+	<div id="mainWrapper" style="margin-left: 1%; margin-top: 1%;">	
 		<div id="whoamiWrapper">
-			<div class="whoamiContent">
-				<h2 style="margin-bottom: 2vh; margin-left: auto;">>whoami</h2>
+			<div class="terminal">
+				<h2 style="margin-bottom: 2vh;">cat intro.md</h2>
 
-				<p><strong>NAME:</strong> michael hanif khan</p>
-				<p style="margin-top: 1vh;"></p>
-
-				<p><strong>CONTACT:</strong></p>
-				<p>&ensp;<u>Phone</u>: 708-850-7797</p>
-				<p>&ensp;<u>Academic Email</u>: mkhan398@uic.edu</p>
-				<p>&ensp;<u>GitHub</u>: xmasscan</p>
-				<p style="margin-top: 1vh;"></p>
-			</div>
-			<div class="whoamiContent">
-				<h2 style="margin-bottom: 1vh;">cat aboutme.md</h2>
-				
-				<p>TEST</p>
-			</div>
-			<div id="whoamiImage">
-				<img src="https://static.miraheze.org/polytopewiki/thumb/6/6e/Muoctahedron_external.png/200px-Muoctahedron_external.png" style="height: 35vh;">
+				<p>Hello! I am <strong>Michael Hanif Khan</strong>, an Undergraduate Computer Science major currently enrolled at <strong>The University of Illinois at Chicago</strong>.</p>
+				<p style="margin-top: 1%;"></p>
+				<p>For as long as I can remember, I've always been interested in the how and why of things work. As such, I am interested in a large range of topics outside of Computer Science, such as Philosophy, Psychology, Physics, Electronics, and Engineering, to name a few. Although I am nowhere as knowledgable in these fields as I am in Computer Science, I am always interested in interdisiplinary studies or work which take advantage of math and computer science to answer new questions.</p>
+				<p style="margin-top: 1%;"></p>
+				<p>Ultimately what draws me to Computer Science more than any other field is its logical, mathematical roots, its expansive potential, and its propensity for change.</p>
 			</div>
 		</div>
-		<div id="interestsWrapper">
-			<div id="interests">
-				<div id="cybersec">
-					<p>cybersec</p>
+		<div id="sideWrapper">
+			<div class="terminal">
+				<h2>cat aboutme.json</h2>
+				<p><strong>{</strong></p>
+				<div id="json-content" style="margin-left: 5%; font-weight: bold;">
+					<p>"name" : "Michael Hanif Khan",</p>
+					<p>"number" : "708-850-7797",</p>
+					<p>"email" : "mkhan398@uic.edu",</p>
+					<p>"github" : "xmasscan",</p>
+					<p>"resume" : "<a href="assets/Michael-Khan.pdf">LOCAL LINK FOUND</a>",</p>
+					<p>"languages" : '["C++","Java","Python"]',</p>
+					<p>"misc" : '["Linux","Shell","LaTeX"]'</p>
 				</div>
-				<div id="low-level">
-					<p>low-level programming</p>
-				</div>
-				<div id="mcs">
-					<p>mcs</p>
-				</div>
+				<p><strong>}</strong></p>
 			</div>
-			<div id="sideBar">
-				<p>asdasd</p>
+			<div id="sideRow">
+				<img class="terminal" src="https://upload.wikimedia.org/wikipedia/commons/7/76/Petrie-2.gif" alt="An animated GIF of a spinning blue shape (Muoctahedron)">
+				<div class="terminal">
+					<h2>INTERESTS:</h2>
+					<table align="left | right | center">
+						<tr>
+							<td>Cyber Security</td>
+							<td>Computer Graphics</td>
+							<td>Networking</td>
+						</tr>
+						<tr>
+							<td>Physics Simulation</td>
+							<td>MCS</td>
+							<td>Computer Art</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 		</div>
 	</div>

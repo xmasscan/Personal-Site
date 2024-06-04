@@ -1,0 +1,51 @@
+* 
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+html 
+{
+	background-color: #212121;
+	color: white;
+	font-family: 'Courier New', Monospace;
+	font-size: 1.5vw;
+}
+
+#banner
+{
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+#navbar
+{
+	margin-left: 2%;
+}
+
+#navbar ul 
+{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar li
+{
+	display: inline;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-right: 2%;
+}
+
+#navbar a
+{
+	text-decoration: none;
+	color: white;
+
+}
+
+#navbar a:hover
+{
+	color: grey;
+}
